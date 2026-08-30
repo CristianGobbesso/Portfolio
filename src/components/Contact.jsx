@@ -1,5 +1,7 @@
 import { useState } from "react"
+
 import { Mail, Copy, Check, ArrowUpRight } from "lucide-react"
+
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 function Contact() {
@@ -10,6 +12,7 @@ function Contact() {
   const copyEmail = async () => {
     try {
       await navigator.clipboard.writeText(email)
+
       setCopied(true)
 
       setTimeout(() => {
@@ -25,13 +28,14 @@ function Contact() {
       id="contacto"
       className="
         border-t border-zinc-200/80
-        bg-zinc-50/70
+        bg-transparent
         px-6 py-24
         dark:border-zinc-800/80
         dark:bg-zinc-950
       "
     >
       <div className="mx-auto max-w-6xl">
+
         {/* Contenedor principal */}
         <div
           className="
@@ -47,6 +51,7 @@ function Contact() {
             dark:shadow-none
           "
         >
+
           {/* Encabezado */}
           <div className="max-w-2xl">
             <p className="text-sm font-semibold tracking-wide text-violet-600 dark:text-violet-400">
@@ -127,6 +132,7 @@ function Contact() {
 
           {/* Redes */}
           <div className="mt-10 flex flex-wrap items-center gap-4">
+
             <a
               href="https://github.com/CristianGobbesso"
               target="_blank"
@@ -196,6 +202,7 @@ function Contact() {
               Volver arriba
               <ArrowUpRight size={16} />
             </a>
+
           </div>
         </div>
       </div>

@@ -9,6 +9,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+
   font-family:
     Inter,
     system-ui,
@@ -17,26 +18,30 @@ body {
     "Segoe UI",
     sans-serif;
 
-  background: #f4f5f7;
-  color: #18181b;
+  /* ================================
+     MODO CLARO
+  ================================= */
+
+  background: #e8edf3;
+  color: #0f172a;
 
   transition:
     background-color 0.3s ease,
     color 0.3s ease;
 }
 
-/* =================================
+/* ================================
    MODO OSCURO
-================================= */
+================================ */
 
 .dark body {
   background: #07090d;
   color: #f8fafc;
 }
 
-/* =================================
+/* ================================
    SELECCIÓN DE TEXTO
-================================= */
+================================ */
 
 ::selection {
   background: #8b5cf6;

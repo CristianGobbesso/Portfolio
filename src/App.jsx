@@ -30,7 +30,16 @@ function App() {
   }, [darkMode])
 
   return (
-    <div className="min-h-screen bg-[#f8fafc] text-[#0f172a] transition-colors duration-300 dark:bg-[#07090d] dark:text-[#f8fafc]">
+    <div
+      className="
+        min-h-screen
+        bg-transparent
+        text-zinc-900
+        transition-colors duration-300
+        dark:bg-zinc-950
+        dark:text-zinc-100
+      "
+    >
       <Navbar
         darkMode={darkMode}
         setDarkMode={setDarkMode}
@@ -38,13 +47,9 @@ function App() {
 
       <main>
         <Hero />
-
         <Projects />
-
         <Experience />
-
         <Education />
-
         <Contact />
       </main>
 
