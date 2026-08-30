@@ -1,12 +1,12 @@
 export const projects = [
   {
     id: 1,
-    title: "Proyecto de ejemplo",
+    title: "Calculadora de Coeficiente de Exportación",
     description:
-      "Una breve descripción del proyecto y el problema que busca resolver.",
+      "Aplicación web desarrollada para facilitar el cálculo del coeficiente de exportación y centralizar recursos útiles del sector.",
     image: "/projects/project-1.webp",
     technologies: ["React", "JavaScript", "CSS"],
-    github: "https://github.com/",
-    demo: "https://example.com/",
+    github: "https://github.com/CristianGobbesso/calculadora-coeficiente",
+    demo: "https://coeficientedeexportacion.netlify.app/",
   },
 ]
