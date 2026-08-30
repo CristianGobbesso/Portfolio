@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react"
+
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Projects from "./components/Projects"
@@ -7,20 +9,47 @@ import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
 function App() {
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedTheme = localStorage.getItem("theme")
+
+    if (savedTheme) {
+      return savedTheme === "dark"
+    }
+
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+  })
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark")
+      localStorage.setItem("theme", "dark")
+    } else {
+      document.documentElement.classList.remove("dark")
+      localStorage.setItem("theme", "light")
+    }
+  }, [darkMode])
+
   return (
-    <>
-      <Navbar />
+    <div className="min-h-screen bg-[#f8fafc] text-[#0f172a] transition-colors duration-300 dark:bg-[#07090d] dark:text-[#f8fafc]">
+      <Navbar
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
+      />
 
       <main>
         <Hero />
+
         <Projects />
+
         <Experience />
+
         <Education />
+
         <Contact />
       </main>
 
       <Footer />
-    </>
+    </div>
   )
 }
 
