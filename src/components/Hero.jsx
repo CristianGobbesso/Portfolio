@@ -11,7 +11,7 @@ function Hero() {
 
       <div className="mx-auto max-w-4xl text-center">
         {/* Foto */}
-        <div className="mx-auto mb-8 h-32 w-32 overflow-hidden rounded-full border-4 border-white bg-zinc-100 shadow-lg shadow-zinc-200/50 dark:border-zinc-800 dark:bg-zinc-900 dark:shadow-none">
+        <div className="mx-auto mb-8 h-36 w-36 overflow-hidden rounded-full border border-zinc-200 bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 sm:h-48 sm:w-48">
           <img
             src="/profile.webp"
             alt="Cristian Gobbesso"
