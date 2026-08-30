@@ -16,7 +16,8 @@ function App() {
       return savedTheme === "dark"
     }
 
-    return window.matchMedia("(prefers-color-scheme: dark)").matches
+    // Modo oscuro por defecto para nuevos visitantes
+    return true
   })
 
   useEffect(() => {
