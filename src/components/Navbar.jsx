@@ -32,6 +32,13 @@ function Navbar() {
           </a>
 
           <a
+            href="#formacion"
+            className="text-sm text-zinc-500 transition-colors hover:text-zinc-900"
+          >
+            Formación
+          </a>
+
+          <a
             href="#contacto"
             className="text-sm text-zinc-500 transition-colors hover:text-zinc-900"
           >
@@ -71,8 +78,8 @@ function Navbar() {
           </a>
 
           <a
-            href="mailto:cristiangobbesso.it@gmail.com"
-            aria-label="Email"
+            href="#contacto"
+            aria-label="Contacto"
             className="text-zinc-500 transition-colors hover:text-zinc-900"
           >
             <Mail size={18} />
