@@ -6,7 +6,7 @@ Mi perfil combina formación en desarrollo de software con más de 13 años de e
 
 ## 🌐 Demo
 
-[Ver portfolio online](TU_URL_DE_DEMO)
+[Ver portfolio online](https://cristiangobbesso.netlify.app/)
 
 ## 🛠️ Tecnologías
 
