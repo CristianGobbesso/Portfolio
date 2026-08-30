@@ -7,7 +7,7 @@ function TimelineItem({ item }) {
     <div className="relative pl-8 sm:pl-10">
 
       {/* Punto de la timeline */}
-      <div className="absolute -left-[5px] top-1.5 h-3 w-3 rounded-full border-2 border-white bg-violet-600 ring-4 ring-violet-100 dark:border-zinc-950 dark:bg-violet-400 dark:ring-violet-500/10" />
+      <div className="absolute -left-1.25 top-1.5 h-3 w-3 rounded-full border-2 border-white bg-violet-600 ring-4 ring-violet-100 dark:border-zinc-950 dark:bg-violet-400 dark:ring-violet-500/10" />
 
       <div className="pb-2">
 
