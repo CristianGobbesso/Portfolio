@@ -2,7 +2,7 @@ export const programmingEducation = [
   {
     id: 1,
     title: "Técnico Superior en Programación",
-    institution: "Formación Superior",
+    institution: "Teclab Instituto Técnico Superior",
     type: "Título",
     duration: "2 años",
     description:
@@ -41,7 +41,7 @@ export const commerceEducation = [
   {
     id: 1,
     title: "Técnico Superior en Operaciones de Comercio Exterior y Aduana",
-    institution: "Formación Superior",
+    institution: "Centro de Estudios Superiores",
     type: "Título",
     duration: "3 años",
     description:
@@ -50,7 +50,7 @@ export const commerceEducation = [
   {
     id: 2,
     title: "Perito Clasificador de Granos",
-    institution: "Formación profesional",
+    institution: "Escuela de Recibidores de Granos de Rosario",
     type: "Título",
     duration: "1 año",
     description:
