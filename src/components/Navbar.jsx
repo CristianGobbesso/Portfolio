@@ -11,7 +11,7 @@ function Navbar() {
           href="#inicio"
           className="text-sm font-semibold tracking-tight text-zinc-900"
         >
-          Cristian
+          Cristian Gobbesso
         </a>
 
         {/* Navegación */}
