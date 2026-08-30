@@ -16,6 +16,7 @@ function Navbar() {
 
         {/* Navegación */}
         <div className="hidden items-center gap-8 md:flex">
+
           <a
             href="#proyectos"
             className="text-sm text-zinc-500 transition-colors hover:text-zinc-900"
@@ -24,10 +25,10 @@ function Navbar() {
           </a>
 
           <a
-            href="#formacion"
+            href="#experiencia"
             className="text-sm text-zinc-500 transition-colors hover:text-zinc-900"
           >
-            Formación
+            Experiencia
           </a>
 
           <a
@@ -43,13 +44,16 @@ function Navbar() {
           >
             <Moon size={18} />
           </button>
+
         </div>
 
         {/* Redes */}
         <div className="flex items-center gap-4">
 
           <a
-            href="#"
+            href="https://github.com/CristianGobbesso"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="GitHub"
             className="text-zinc-500 transition-colors hover:text-zinc-900"
           >
@@ -57,7 +61,9 @@ function Navbar() {
           </a>
 
           <a
-            href="#"
+            href="https://www.linkedin.com/in/cristian-gobbesso-7833591b2/"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="LinkedIn"
             className="text-zinc-500 transition-colors hover:text-zinc-900"
           >
@@ -65,7 +71,7 @@ function Navbar() {
           </a>
 
           <a
-            href="#"
+            href="mailto:cristiangobbesso.it@gmail.com"
             aria-label="Email"
             className="text-zinc-500 transition-colors hover:text-zinc-900"
           >
