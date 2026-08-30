@@ -12,7 +12,6 @@ function Education() {
       className="border-t border-zinc-200 px-6 py-24 dark:border-zinc-800"
     >
       <div className="mx-auto max-w-6xl">
-
         {/* Encabezado */}
         <div className="max-w-2xl">
           <p className="text-sm font-medium tracking-wide text-violet-600 dark:text-violet-400">
@@ -31,7 +30,6 @@ function Education() {
 
         {/* Programación */}
         <div className="mt-16">
-
           <div className="mb-8">
             <h3 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">
               Programación
@@ -42,7 +40,7 @@ function Education() {
             </p>
           </div>
 
-          <div className="relative space-y-10 border-l border-zinc-200 dark:border-zinc-800">
+          <div className="relative space-y-6 border-l border-zinc-200 dark:border-zinc-800">
             {programmingEducation.map((item) => (
               <TimelineItem
                 key={item.id}
@@ -54,7 +52,6 @@ function Education() {
 
         {/* Comercio Exterior */}
         <div className="mt-20">
-
           <div className="mb-8">
             <h3 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">
               Comercio Exterior
@@ -66,7 +63,7 @@ function Education() {
             </p>
           </div>
 
-          <div className="relative space-y-10 border-l border-zinc-200 dark:border-zinc-800">
+          <div className="relative space-y-6 border-l border-zinc-200 dark:border-zinc-800">
             {commerceEducation.map((item) => (
               <TimelineItem
                 key={item.id}
@@ -75,7 +72,6 @@ function Education() {
             ))}
           </div>
         </div>
-
       </div>
     </section>
   )
