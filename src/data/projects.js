@@ -9,4 +9,14 @@ export const projects = [
     github: "https://github.com/CristianGobbesso/calculadora-coeficiente",
     demo: "https://coeficientedeexportacion.netlify.app/",
   },
+  {
+    id: 2,
+    title: "E-commerce / tienda online",
+    description:
+      "Aplicación web de comercio electrónico desarrollada como proyecto integrador del Bootcamp Full Stack realizado en EducaciónIT.",
+    image: "/projects/project-2.webp",
+    technologies: ["React", "JavaScript", "SCSS"],
+    github: "https://github.com/CristianGobbesso/Proyecto-integrador-bootcamp-73591-segunda-parte",
+    demo: "https://etapafinal-bc73591.netlify.app/",
+  },
 ]

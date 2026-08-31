@@ -3,6 +3,7 @@ import {
   FaJs,
   FaHtml5,
   FaCss3Alt,
+  FaSass,
   FaNodeJs,
   FaPython,
 } from "react-icons/fa"
@@ -12,6 +13,8 @@ const technologyIcons = {
   JavaScript: FaJs,
   HTML: FaHtml5,
   CSS: FaCss3Alt,
+  SCSS:FaSass,
+  Sass: FaSass,
   "Node.js": FaNodeJs,
   Python: FaPython,
 }
